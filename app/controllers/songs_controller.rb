@@ -55,8 +55,8 @@ class SongsController < ApplicationController
         redirect_to artists_path
       elsif @song
         @song.artist = @artist
-        redirect_to artist_songs_path(@artist)
       else
+        redirect_to artist_songs_path(@artist)
         
       end
     else
