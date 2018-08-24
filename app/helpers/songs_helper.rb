@@ -6,6 +6,7 @@ module SongsHelper
     else
       select_tag "song[artist_id]", options_from_collection_fo_select(Artist.all, :id, :name)
     end
+  end
       
       
   end
