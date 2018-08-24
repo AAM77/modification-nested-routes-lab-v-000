@@ -32,6 +32,8 @@ class SongsController < ApplicationController
       else
         artists_path
       end
+    else
+      @song = Song.new
   end
 
   def create
