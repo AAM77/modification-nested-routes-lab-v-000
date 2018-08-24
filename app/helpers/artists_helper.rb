@@ -4,6 +4,10 @@ module ArtistsHelper
   end
   
   def artist_select(artist, song)
+    if artist
+      artist.name
+    else
+      select_tag 
   end
   
   
