@@ -1,5 +1,6 @@
 module SongsHelper
   
-  def 
+  def artist_id_field
+  end
 
 end
